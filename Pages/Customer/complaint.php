@@ -24,19 +24,19 @@ require_once '../../Components/NavBar/footer.php';
             <form action="complaint.php" method="POST">
                 <div class="pro_form-group">
                     <label class="pro_name" for="pro_username">Enter Name</label>
-                    <input class="pro_input" type="text" id="pro_username" name="pro_username">
-                </div>
-                <div class="pro_form-group">
-                    <label class="pro_name" for="pro_name">Enter Your Phone Number</label>
                     <input class="pro_input" type="text" id="pro_name" name="pro_name">
                 </div>
                 <div class="pro_form-group">
+                    <label class="pro_name" for="pro_name">Enter Your Phone Number</label>
+                    <input class="pro_input" type="text" id="pro_phoneno" name="pro_phoneno">
+                </div>
+                <div class="pro_form-group">
                     <label class="pro_name" for="pro_email">Enter Your E-mail</label>
-                    <input class="pro_input" type="email" id="pro_email" name="pro_email" >
+                    <input class="pro_input" type="email" id="pro_comemail" name="pro_comemail" >
                 </div>
                 <div class="pro_form-group">
                     <label class="pro_name" for="pro_phone">Enter Your Complaint</label>
-                    <input class="pro_input" type="text" id="pro_phone" name="pro_phone">
+                    <input class="pro_input" type="text" id="pro_complaint" name="pro_complaint">
                 </div>
                 <div class="pro_button">
                 <p>&emsp;</p>
