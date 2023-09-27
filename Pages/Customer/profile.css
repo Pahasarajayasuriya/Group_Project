@@ -1,0 +1,112 @@
+/* CSS in your profile.css file */
+
+/* Center the whole container vertically and horizontally */
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pro_container {
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #F5EDED;
+    display: flex; 
+    flex-direction: column; 
+    width: 700vw;
+}
+
+.pro_card {
+    border: 1px solid #F5EDED;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(62, 54, 54);
+    padding: 20px;
+    margin: 20px auto; 
+    max-width: 800vw;
+}
+
+.pro_font {
+    color: #D72323;
+}
+
+.pro_name {
+    color: #3E3636;
+}
+
+.pro_form-group input[type="text"],
+.pro_form-group input[type="email"],
+.pro_form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #F5EDED;
+    border-radius: 5px;
+}
+
+.pro_btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #D72323;
+    color: #F5EDED; 
+    border: none; 
+    transition: background-color 0.3s;
+}
+
+.pro_btn:hover {
+    background-color: #3E3636;
+}
+
+.pro_text-right {
+    color: #D72323;
+}
+
+@media (max-width: 768px) {
+    .pro_container {
+        max-width: 100%;
+        padding: 20px;
+        
+    }
+
+    .pro_card {
+        padding: 10px;
+        width: 60vw;
+    }
+
+    .pro_form-group input[type="text"],
+    .pro_form-group input[type="email"],
+    .pro_form-group input[type="password"] {
+        padding: 8px;
+    }
+
+    .pro_btn {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .pro_container {
+        padding: 5px;
+    }
+
+    .pro_card {
+        padding: 5px;
+        padding-left: 120px;
+        width: 88vw;
+    }
+
+    .pro_form-group input[type="text"],
+    .pro_form-group input[type="email"],
+    .pro_form-group input[type="password"] {
+        padding: 6px;
+    }
+
+    .pro_btn {
+        padding: 6px 12px;
+    }
+}
