@@ -1,0 +1,52 @@
+<?php
+$role = "User";
+require_once '../../Components/NavBar/header.php';
+require_once '../../Components/NavBar/NavBar.php';
+require_once '../../Components/NavBar/footer.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="pro_container">
+        <h1 class="pro_font">
+            Complaints
+        </h1>
+        <div class="pro_card">
+            <form action="complaint.php" method="POST">
+                <div class="pro_form-group">
+                    <label class="pro_name" for="pro_username">Enter Name</label>
+                    <input class="pro_input" type="text" id="pro_username" name="pro_username">
+                </div>
+                <div class="pro_form-group">
+                    <label class="pro_name" for="pro_name">Enter Your Phone Number</label>
+                    <input class="pro_input" type="text" id="pro_name" name="pro_name">
+                </div>
+                <div class="pro_form-group">
+                    <label class="pro_name" for="pro_email">Enter Your E-mail</label>
+                    <input class="pro_input" type="email" id="pro_email" name="pro_email" >
+                </div>
+                <div class="pro_form-group">
+                    <label class="pro_name" for="pro_phone">Enter Your Complaint</label>
+                    <input class="pro_input" type="text" id="pro_phone" name="pro_phone">
+                </div>
+                <div class="pro_button">
+                <p>&emsp;</p>
+                <form action="complaint.php">
+                <button type="submit" class="pro_btn">Sumbit</button>
+                </form>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

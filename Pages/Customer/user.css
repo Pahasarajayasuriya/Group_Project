@@ -203,8 +203,6 @@ section{
 .home .slides-container .slide .img{
     flex: 1 1 40rem;
     margin: 3rem 0;
-    /* height: 100%;
-    width: 100%; */
  }
 
 .home .slides-container .slide .img img{

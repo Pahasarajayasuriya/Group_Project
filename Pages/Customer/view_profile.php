@@ -21,13 +21,13 @@ require_once '../../Components/NavBar/footer.php';
             Your Account
         </h1>
         <div class="pro_card">
-            <p><strong>Username:</strong> pahasara01</p>
-            <p><strong>Name:</strong> Pahasara</p>
-            <p><strong>E-mail:</strong> pahasara@mail.com</p>
-            <p><strong>Phone No:</strong> 0772815328</p>
-
+            <p class="pro_details"><strong>Username:</strong> pahasara01</p>
+            <p class="pro_details"><strong>Name:</strong> Pahasara</p>
+            <p class="pro_details"><strong>E-mail:</strong> pahasara@mail.com</p>
+            <p class="pro_details"><strong>Phone No:</strong> 0772815328</p>
+             <br>
             <form action="edit_profile.php">
-                <button type="submit" class="pro_btn pro_btn-primary">Edit Profile</button>
+                <button type="submit" class="pro_btn">Edit Your Profile</button>
             </form>
         </div>
     </div>
