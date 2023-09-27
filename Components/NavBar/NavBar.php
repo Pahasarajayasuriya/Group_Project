@@ -1,13 +1,13 @@
                         <?php
                             if($role == "User"){
                                 echo '<li class="nav-link">
-                                        <a href="#" id="home-link">
+                                        <a href="user.php" id="home-link">
                                             <i class="bx bx-home"></i>
                                             <span class="text nav-text">Home</span>
                                         </a>
                                     </li>
                                     <li class="nav-link">
-                                        <a href="#" id="profile-link">
+                                        <a href="view_profile.php" id="profile-link">
                                             <i class="bx bxs-user-circle"></i>
                                             <span class="text nav-text">Profile</span>
                                         </a>
