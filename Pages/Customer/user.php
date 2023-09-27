@@ -232,7 +232,7 @@ require_once '../../Components/NavBar/footer.php';
 
     <section class="about">
         <div class="img">
-            <img decoding="async" src="../../img/about-us-banner.jpg" alt="">
+            <img decoding="async" src="../../img/01_our-story.jpg" alt="">
         </div>
 
         <div class="content">
