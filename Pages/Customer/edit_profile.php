@@ -50,6 +50,8 @@ require_once '../../Components/NavBar/footer.php';
                     <label class="pro_name" for="pro_phone">Re-enter Password</label>
                     <input class="pro_input" type="text" id="pro_phone" name="pro_reenter_password">
                 </div>
+                <div class="pro_button">
+                <p>&emsp;</p>
                 <form action="view_profile.php">
                 <button type="submit" class="pro_btn">Save changes</button>
                 </form>
@@ -57,6 +59,7 @@ require_once '../../Components/NavBar/footer.php';
                 <form action="view_profile.php">
                 <button type="submit" class="pro_btn">Cancel</button>
                 </form>
+                </div>
             </form>
         </div>
     </div>

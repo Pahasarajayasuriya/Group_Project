@@ -36,7 +36,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-link">
-                                        <a href="#" id="complains-link">
+                                        <a href="complaint.php" id="complains-link">
                                             <i class="bx bxs-spreadsheet"></i>
                                             <span class="text nav-text">Complains</span>
                                         </a>
