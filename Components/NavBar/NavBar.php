@@ -14,17 +14,17 @@
                                     </li>
                                     <li class="nav-link">
                                         <a href="#" id="products-link">
-                                            <i class="bx bx-food-menu"></i>
+                                            <i class="bx bx-cake"></i>
                                             <span class="text nav-text">Products</span>
                                         </a>
                                     </li>
                                     <li class="nav-link">
                                         <a href="#" id="process-link">
-                                            <i class="bx bx-rotate-left"></i>
+                                            <i class="bx bx-pie-chart-alt-2"></i>
                                             <span class="text nav-text">Process</span>
                                         </a>
                                     </li><li class="nav-link">
-                                        <a href="#" id="exports-link">
+                                        <a href="export.php" id="exports-link">
                                             <i class="bx bxs-plane-alt"></i>
                                             <span class="text nav-text">Exports</span>
                                         </a>
@@ -37,13 +37,13 @@
                                     </li>
                                     <li class="nav-link">
                                         <a href="complaint.php" id="complains-link">
-                                            <i class="bx bxs-spreadsheet"></i>
+                                            <i class="bx bx-message-alt-detail"></i>
                                             <span class="text nav-text">Complains</span>
                                         </a>
                                     </li>
                                     <li class="nav-link">
                                         <a href="#" id="aboutus-link">
-                                            <i class="bx bxl-microsoft-teams"></i>
+                                            <i class="bx bx-cog"></i>
                                             <span class="text nav-text">About Us</span>
                                         </a>
                                     </li>

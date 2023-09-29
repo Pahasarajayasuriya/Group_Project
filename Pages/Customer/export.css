@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            #export-section {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 80px 12%;
+            }
+            .export-left img{
+                width: 520px;
+                height: auto;
+                transform: translateY(50px);
+            }
+            .export-right {
+                width: 54%;
+            }
+
+            .export-right h1 {
+                color: #D72323;
+                font-size: 37px;
+                margin-bottom: 5px;
+            }
+
+            .export-right p {
+                color: #F5EDED;
+                line-height: 30px;
+                font-size: 20px;
+            }
+
+          
