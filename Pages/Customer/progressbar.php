@@ -12,46 +12,48 @@
 </head>
 
 <body>
-    <div class="progress_main">
+    <div class="home-section">
+        <div class="progress_main">
 
-        <div class="progress_head">
-            <p class="progress_head_1">Order <span> Status</span></p>
+            <div class="progress_head">
+                <p class="progress_head_1">Order <span> Status</span></p>
+            </div>
+
+            <ul>
+                <li>
+                    <i class="icon uil uil-capture"></i>
+                    <div class="progress one">
+                    </div>
+                    <p class="progress_text">Order Placed</p>
+                </li>
+                <li>
+                    <i class="icon uil uil-exchange"></i>
+                    <div class="progress two">
+                    </div>
+                    <p class="progress_text">Order Preparing</p>
+                </li>
+                <li>
+                    <i class="icon uil uil-clipboard-notes"></i>
+                    <div class="progress three">
+                    </div>
+                    <p class="progress_text">Order Dispatch</p>
+                </li>
+                <li>
+                    <i class="icon uil uil-map-marker"></i>
+                    <div class="progress four">
+                    </div>
+                    <p class="progress_text">Order Delivered</p>
+                </li>
+            </ul>
+            <form action="complaint.php">
+                <br><br><br>
+                <button type="submit" class="process_btn">Complaint</button>
+            </form>
+
         </div>
 
-        <ul>
-            <li>
-                <i class="icon uil uil-capture"></i>
-                <div class="progress one">
-                </div>
-                <p class="progress_text">Order Placed</p>
-            </li>
-            <li>
-                <i class="icon uil uil-exchange"></i>
-                <div class="progress two">
-                </div>
-                <p class="progress_text">Order Preparing</p>
-            </li>
-            <li>
-                <i class="icon uil uil-clipboard-notes"></i>
-                <div class="progress three">
-                </div>
-                <p class="progress_text">Order Dispatch</p>
-            </li>
-            <li>
-                <i class="icon uil uil-map-marker"></i>
-                <div class="progress four">
-                </div>
-                <p class="progress_text">Order Delivered</p>
-            </li>
-        </ul>
-        <form action="complaint.php">
-            <br><br><br>
-            <button type="submit" class="process_btn">Complaint</button>
-        </form>
-
+        <script src="progressbar.js"></script>
     </div>
-
-    <script src="progressbar.js"></script>
 </body>
 
 </html>

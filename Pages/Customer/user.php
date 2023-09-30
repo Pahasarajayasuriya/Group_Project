@@ -425,7 +425,7 @@ require_once '../../Components/NavBar/footer.php';
 
         <section class="credit">Copyright <i class="fa-regular fa-copyright"></i> Finagle Lanka (Pvt) Ltd || all rights reserved</section>
         <script src="../Customer/user.js" defer data-deferred="1"></script>
-        </div>
+    </div>
 </body>
 
 </html>

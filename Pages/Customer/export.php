@@ -13,16 +13,17 @@ require_once '../../Components/NavBar/footer.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="export.css">
-    <title>EXPORT</title>
+    <title>Exports</title>
 </head>
 
 <body>
+<div class="home-section">
     <section id="export-section">
+        <h1>MARKETS-EXPORTS</h1> <br><br>
         <div class="export-left">
             <img src="../../img/image1.jpg" alt="export Img" />
         </div>
         <div class="export-right">
-            <h1>MARKETS-EXPORTS</h1> <br><br>
             <p>
                 Exports of frozen baked products is another of our success stories. Exports of our baked
                 goods commenced several years back. We initially targeted hotels, restaurants and retail
@@ -37,8 +38,9 @@ require_once '../../Components/NavBar/footer.php';
                 those countries as well. Currently, we are the only organization to offer a complete
                 package of baked products for exports.
             </p>
-            </div>
+        </div>
     </section>
+</div>
 </body>
 
 </html>

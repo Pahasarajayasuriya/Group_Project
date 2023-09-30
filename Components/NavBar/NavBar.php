@@ -1,6 +1,6 @@
                         <?php
-                            if($role == "User"){
-                                echo '<li>
+                        if ($role == "User") {
+                            echo '<li>
                                 <a href="user.php">
                                   <i class="bx bx-grid-alt"></i>
                                   <span class="links_name">Dashboard</span>
@@ -63,8 +63,8 @@
                                 </a>
                                 <span class="tooltip">Contact Us</span>
                               </li>';
-                            }elseif($role == "Employee"){
-                                echo '
+                        } elseif ($role == "Employee") {
+                            echo '
                                 <li>
                                 <a href="#">
                                   <i class="bx bx-user"></i>
@@ -86,7 +86,7 @@
                             </a>
                             <span class="tooltip">Orders</span>
                           </li>';
-                        }elseif($role == "Manager"){
+                        } elseif ($role == "Manager") {
                             echo '
                             <li>
                             <a href="#">
@@ -158,7 +158,7 @@
                                 </a>
                                 <span class="tooltip">Customers</span>
                               </li>';
-                        }elseif($role == "Admin"){
+                        } elseif ($role == "Admin") {
                             echo '
                             <li>
                                 <a href="#">
@@ -209,7 +209,7 @@
                                 </a>
                                 <span class="tooltip">Advertisement</span>
                               </li>';
-                        }elseif($role == "Deliverer"){
+                        } elseif ($role == "Deliverer") {
                             echo '
                             <li>
                                 <a href="#">
