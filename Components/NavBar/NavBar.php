@@ -51,7 +51,7 @@
                               </li>
                               <li>
                                 <a href="#">
-                                  <i class="bx bx-cog"></i>
+                                <i class="bx bx-info-circle"></i>
                                   <span class="links_name">About Us</span>
                                 </a>
                                 <span class="tooltip">About Us</span>
