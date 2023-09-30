@@ -17,7 +17,7 @@ require_once '../../Components/NavBar/footer.php';
 </head>
 
 <body>
-<div class="home-section">
+<div class="home-section3">
     <section id="export-section">
         <h1>MARKETS-EXPORTS</h1> <br><br>
         <div class="export-left">

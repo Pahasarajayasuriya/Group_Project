@@ -384,7 +384,7 @@ require_once '../../Components/NavBar/footer.php';
 
 
 
-        <section class="footer">
+        <!-- <section class="footer">
             <div class="box-container">
                 <div class="box">
                     <h3>quick links</h3>
@@ -423,9 +423,13 @@ require_once '../../Components/NavBar/footer.php';
             </div>
         </section>
 
-        <section class="credit">Copyright <i class="fa-regular fa-copyright"></i> Finagle Lanka (Pvt) Ltd || all rights reserved</section>
+        <section class="credit">Copyright <i class="fa-regular fa-copyright"></i> Finagle Lanka (Pvt) Ltd || all rights reserved</section> -->
         <script src="../Customer/user.js" defer data-deferred="1"></script>
     </div>
 </body>
 
 </html>
+
+<?php
+require_once '../../Components/NavBar/Footer/cus_footer.php';
+?>

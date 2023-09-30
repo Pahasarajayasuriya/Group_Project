@@ -582,7 +582,7 @@ section {
   min-height: 10vh;
 }
 
-.footer {
+/* .footer {
   background: var(--brown);
 }
 
@@ -636,14 +636,14 @@ section {
 .footer .box-container .box .payments {
   width: 100%;
   margin-top: 2rem;
-}
+} */
 
-.credit {
+/* .credit {
   text-align: center;
   background: var(--brown);
   color: #000;
   font-size: 2rem;
-}
+} */
 
 @media (max-width: 991px) {
   html {

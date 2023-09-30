@@ -16,7 +16,6 @@ require_once '../../Components/NavBar/footer.php';
 </head>
 
 <body>
-    <div class="home-section">
         <div class="pro_container">
             <h1 class="pro_font">
                 Edit Profile
@@ -64,7 +63,6 @@ require_once '../../Components/NavBar/footer.php';
                 </form>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
