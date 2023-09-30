@@ -1,5 +1,6 @@
 </ul>
-                </div>
-            </div>
-        </nav>
-        <script src="../../Components/NavBar/NavigationBar.js"></script>
+</div>
+
+    <script src="../../Components/NavBar/NavigationBar.js"></script>
+  </body>
+</html>

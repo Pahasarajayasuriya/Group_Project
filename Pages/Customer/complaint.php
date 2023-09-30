@@ -23,7 +23,7 @@ require_once '../../Components/NavBar/footer.php';
         <div class="pro_card">
             <form action="complaint.php" method="POST">
                 <div class="pro_form-group">
-                    <label class="pro_name" for="pro_username">Enter Name</label>
+                    <label class="pro_name" for="pro_username">Enter Your Name</label>
                     <input class="pro_input" type="text" id="pro_name" name="pro_name">
                 </div>
                 <div class="pro_form-group">
