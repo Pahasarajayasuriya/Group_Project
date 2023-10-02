@@ -1,195 +1,229 @@
                         <?php
-                            if($role == "User"){
-                                echo '<li class="nav-link">
-                                        <a href="#" id="home-link">
-                                            <i class="bx bx-home"></i>
-                                            <span class="text nav-text">Home</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a href="#" id="profile-link">
-                                            <i class="bx bxs-user-circle"></i>
-                                            <span class="text nav-text">Profile</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a href="#" id="products-link">
-                                            <i class="bx bx-food-menu"></i>
-                                            <span class="text nav-text">Products</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a href="#" id="process-link">
-                                            <i class="bx bx-rotate-left"></i>
-                                            <span class="text nav-text">Process</span>
-                                        </a>
-                                    </li><li class="nav-link">
-                                        <a href="#" id="exports-link">
-                                            <i class="bx bxs-plane-alt"></i>
-                                            <span class="text nav-text">Exports</span>
-                                        </a>
-                                    </li> 
-                                    <li class="nav-link">
-                                        <a href="#" id="recipies-link">
-                                            <i class="bx bx-food-menu"></i>
-                                            <span class="text nav-text">Recipies</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a href="#" id="complains-link">
-                                            <i class="bx bxs-spreadsheet"></i>
-                                            <span class="text nav-text">Complains</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a href="#" id="aboutus-link">
-                                            <i class="bx bxl-microsoft-teams"></i>
-                                            <span class="text nav-text">About Us</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-link">
-                                        <a href="#" id="contactus-link">
-                                            <i class="bx bxs-phone-call"></i>
-                                            <span class="text nav-text">Contact Us</span>
-                                        </a>
-                                    </li>';
-                            }elseif($role == "Employee"){
-                                echo '
-                                <li class="nav-link">
-                                    <a href="#" id="profile-link">
-                                        <i class="bx bxs-user-circle"></i>
-                                        <span class="text nav-text">Profile</span>
-                                    </a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" id="products-link">
-                                        <i class="bx bx-food-menu"></i>
-                                        <span class="text nav-text">Stocks</span>
-                                    </a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" id="complains-link">
-                                        <i class="bx bxs-spreadsheet"></i>
-                                        <span class="text nav-text">Orders</span>
-                                    </a>
-                                </li>';
-                        }elseif($role == "Manager"){
+                        if ($role == "User") {
+                            echo '<li>
+                                <a href="user.php">
+                                  <i class="bx bx-grid-alt"></i>
+                                  <span class="links_name">Dashboard</span>
+                                </a>
+                                <span class="tooltip">Dashboard</span>
+                              </li>
+                              <li>
+                                <a href="view_profile.php">
+                                  <i class="bx bx-user"></i>
+                                  <span class="links_name">Profile</span>
+                                </a>
+                                <span class="tooltip">Profile</span>
+                              </li>
+                              <li>
+                                <a href="product.php">
+                                  <i class="bx bx-cake"></i>
+                                  <span class="links_name">Products</span>
+                                </a>
+                                <span class="tooltip">Products</span>
+                              </li>
+                              <li>
+                                <a href="process.php">
+                                  <i class="bx bx-pie-chart-alt-2"></i>
+                                  <span class="links_name">Process</span>
+                                </a>
+                                <span class="tooltip">Process</span>
+                              </li>
+                              <li>
+                                <a href="export.php">
+                                  <i class="bx bxs-plane-alt"></i>
+                                  <span class="links_name">Exports</span>
+                                </a>
+                                <span class="tooltip">Exports</span>
+                              </li>
+                              <li>
+                                <a href="recipes.php">
+                                  <i class="bx bx-food-menu"></i>
+                                  <span class="links_name">Recipes</span>
+                                </a>
+                                <span class="tooltip">Recipes</span>
+                              </li>
+                              <li>
+                                <a href="complaint.php">
+                                  <i class="bx bx-message-alt-detail"></i>
+                                  <span class="links_name">Complains</span>
+                                </a>
+                                <span class="tooltip">Complains</span>
+                              </li>
+                              <li>
+                                <a href="user.php#aboutus">
+                                <i class="bx bx-info-circle"></i>
+                                  <span class="links_name">About Us</span>
+                                </a>
+                                <span class="tooltip">About Us</span>
+                              </li>
+                              <li>
+                                <a href="user.php#contactus">
+                                  <i class="bx bxs-phone-call"></i>
+                                  <span class="links_name">Contact Us</span>
+                                </a>
+                                <span class="tooltip">Contact Us</span>
+                              </li>';
+                        } elseif ($role == "Employee") {
                             echo '
-                            <li class="nav-link">
-                                <a href="#" id="profile-link">
-                                    <i class="bx bxs-user-circle"></i>
-                                    <span class="text nav-text">Profile</span>
+                                <li>
+                                <a href="#">
+                                  <i class="bx bx-user"></i>
+                                  <span class="links_name">Profile</span>
                                 </a>
+                                <span class="tooltip">Profile</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-user"></i>
+                                <span class="links_name">Stocks</span>
+                              </a>
+                              <span class="tooltip">Stocks</span>
                             </li>
-                            <li class="nav-link">
-                                <a href="#" id="products-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Products</span>
-                                </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="#" id="process-link">
-                                    <i class="bx bx-rotate-left"></i>
-                                    <span class="text nav-text">Order History</span>
-                                </a>
-                            </li><li class="nav-link">
-                                <a href="#" id="exports-link">
-                                    <i class="bx bxs-plane-alt"></i>
-                                    <span class="text nav-text">Employees</span>
-                                </a>
-                            </li> 
-                            <li class="nav-link">
-                                <a href="#" id="recipies-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Diliverers</span>
-                                </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="#" id="complains-link">
-                                    <i class="bx bxs-spreadsheet"></i>
-                                    <span class="text nav-text">Complaints</span>
-                                </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="#" id="recipies-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Feedbacks</span>
-                                </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="#" id="recipies-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Reports</span>
-                                </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="#" id="recipies-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Branch Details</span>
-                                </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="#" id="recipies-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Customers</span>
-                                </a>
-                            </li>';
-                        }elseif($role == "Admin"){
+                            <li>
+                            <a href="#">
+                              <i class="bx bx-user"></i>
+                              <span class="links_name">Orders</span>
+                            </a>
+                            <span class="tooltip">Orders</span>
+                          </li>';
+                        } elseif ($role == "Manager") {
                             echo '
-                            <li class="nav-link">
-                                <a href="#" id="profile-link">
-                                    <i class="bx bxs-user-circle"></i>
-                                    <span class="text nav-text">Customers</span>
+                            <li>
+                            <a href="#">
+                              <i class="bx bx-user"></i>
+                              <span class="links_name">Profile</span>
+                            </a>
+                            <span class="tooltip">Profile</span>
+                          </li>
+                          <li>
+                          <a href="#">
+                            <i class="bx bx-cake"></i>
+                            <span class="links_name">Products</span>
+                          </a>
+                          <span class="tooltip">Products</span>
+                        </li>
+                        <li>
+                        <a href="#">
+                          <i class="bx bx-cake"></i>
+                          <span class="links_name">Order History</span>
+                        </a>
+                        <span class="tooltip">Order History</span>
+                      </li>
+                      <li>
+                                <a href="#">
+                                  <i class="bx bx-cake"></i>
+                                  <span class="links_name">Employees</span>
                                 </a>
+                                <span class="tooltip">Employees</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-cake"></i>
+                                <span class="links_name">Deliverers</span>
+                              </a>
+                              <span class="tooltip">Deliverers</span>
                             </li>
-                            <li class="nav-link">
-                                <a href="#" id="products-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Managers</span>
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-message-alt-detail"></i>
+                                  <span class="links_name">Complains</span>
                                 </a>
+                                <span class="tooltip">Complains</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-message-alt-detail"></i>
+                                <span class="links_name">Feedbacks</span>
+                              </a>
+                              <span class="tooltip">Feedbacks</span>
                             </li>
-                            <li class="nav-link">
-                                <a href="#" id="process-link">
-                                    <i class="bx bx-rotate-left"></i>
-                                    <span class="text nav-text">Employees</span>
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-message-alt-detail"></i>
+                                  <span class="links_name">Reports</span>
                                 </a>
-                            </li><li class="nav-link">
-                                <a href="#" id="exports-link">
-                                    <i class="bx bxs-plane-alt"></i>
-                                    <span class="text nav-text">Deliverers</span>
-                                </a>
-                            </li> 
-                            <li class="nav-link">
-                                <a href="#" id="recipies-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Products</span>
-                                </a>
+                                <span class="tooltip">reports</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-message-alt-detail"></i>
+                                <span class="links_name">Branch Details</span>
+                              </a>
+                              <span class="tooltip">Branch Details</span>
                             </li>
-                            <li class="nav-link">
-                                <a href="#" id="complains-link">
-                                    <i class="bx bxs-spreadsheet"></i>
-                                    <span class="text nav-text">Branches</span>
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-message-alt-detail"></i>
+                                  <span class="links_name">Customers</span>
                                 </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="#" id="recipies-link">
-                                    <i class="bx bx-food-menu"></i>
-                                    <span class="text nav-text">Advertisements</span>
-                                </a>
-                            </li>';
-                        }elseif($role == "Deliverer"){
+                                <span class="tooltip">Customers</span>
+                              </li>';
+                        } elseif ($role == "Admin") {
                             echo '
-                            <li class="nav-link">
-                                <a href="#" id="profile-link">
-                                    <i class="bx bxs-user-circle"></i>
-                                    <span class="text nav-text">Profile</span>
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-message-alt-detail"></i>
+                                  <span class="links_name">Customers</span>
                                 </a>
+                                <span class="tooltip">Customers</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-message-alt-detail"></i>
+                                <span class="links_name">Managers</span>
+                              </a>
+                              <span class="tooltip">Managers</span>
                             </li>
-                            <li class="nav-link">
-                                <a href="#" id="complains-link">
-                                    <i class="bx bxs-spreadsheet"></i>
-                                    <span class="text nav-text">Assign Orders</span>
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-message-alt-detail"></i>
+                                  <span class="links_name">Employess</span>
                                 </a>
+                                <span class="tooltip">Employees</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-message-alt-detail"></i>
+                                <span class="links_name">Deliverers</span>
+                              </a>
+                              <span class="tooltip">Deliverers</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-cake"></i>
+                                  <span class="links_name">Products</span>
+                                </a>
+                                <span class="tooltip">Products</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-cake"></i>
+                                <span class="links_name">Branches</span>
+                              </a>
+                              <span class="tooltip">Branches</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-cake"></i>
+                                  <span class="links_name">Advertisement</span>
+                                </a>
+                                <span class="tooltip">Advertisement</span>
+                              </li>';
+                        } elseif ($role == "Deliverer") {
+                            echo '
+                            <li>
+                                <a href="#">
+                                  <i class="bx bx-user"></i>
+                                  <span class="links_name">Profile</span>
+                                </a>
+                                <span class="tooltip">Profile</span>
+                              </li>
+                              <li>
+                              <a href="#">
+                                <i class="bx bx-user"></i>
+                                <span class="links_name">Assign Orders</span>
+                              </a>
+                              <span class="tooltip">Assign Orders</span>
                             </li>';
                         }
                         ?>
