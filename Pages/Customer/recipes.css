@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+body, html {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center all content vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Adjusted the min-height to 100vh to center the content better */
+    background-color: #000000; /* Change the background color to your preference */
+    color: #ffffff;
+}
+
+h1 {
+    color: #D72323;
+    text-align: center;
+}
+
+/* Style the video containers */
+.video-container {
+    margin: 40px 0; /* Increased the margin to add more gap between videos */
+}
+
+/* Create a grid for the videos */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2fr, 2fr);
+    gap: 60px; /* Increased the gap between videos */
+    max-width: 100%;
+}
+
+/* Style the video titles */
+h3 {
+    text-align: center;
+}
+
+/* Style the iframes to be responsive */
+iframe {
+    max-width: 100%;
+    height: 400px; /* Increased the video height */
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+        gap: 20px; /* Adjusted the gap for smaller screens */
+    }
+}

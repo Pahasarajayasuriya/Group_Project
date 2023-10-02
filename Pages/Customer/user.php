@@ -151,7 +151,7 @@ require_once '../../Components/NavBar/footer.php';
 
 
 
-        <section class="products">
+        <section class="products" id="newlyadded">
 
             <h1 class="title"> Newly <span>Added</span> <a href="#">view all >></a> </h1>
 
@@ -226,7 +226,7 @@ require_once '../../Components/NavBar/footer.php';
         </section>
 
 
-
+        <div id="aboutus">
         <div class="heading">
             <h1>About us</h1>
         </div>
@@ -258,6 +258,7 @@ require_once '../../Components/NavBar/footer.php';
                     Today, Finagle Lanka is wholly owned by the Ranasinghe Family.</p>
             </div>
         </section>
+        </div>
 
         <div class="heading">
             <h1>client's review</h1>
@@ -352,7 +353,7 @@ require_once '../../Components/NavBar/footer.php';
         </section>
 
 
-        <div class="heading">
+        <div class="heading" id="contactus">
             <h1>Contact us</h1>
         </div>
 

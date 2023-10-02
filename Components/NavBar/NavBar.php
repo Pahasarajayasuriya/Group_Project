@@ -36,11 +36,11 @@
                                 <span class="tooltip">Exports</span>
                               </li>
                               <li>
-                                <a href="recipies.php">
+                                <a href="recipes.php">
                                   <i class="bx bx-food-menu"></i>
-                                  <span class="links_name">Recipies</span>
+                                  <span class="links_name">Recipes</span>
                                 </a>
-                                <span class="tooltip">Recipies</span>
+                                <span class="tooltip">Recipes</span>
                               </li>
                               <li>
                                 <a href="complaint.php">
@@ -50,14 +50,14 @@
                                 <span class="tooltip">Complains</span>
                               </li>
                               <li>
-                                <a href="#">
+                                <a href="user.php#aboutus">
                                 <i class="bx bx-info-circle"></i>
                                   <span class="links_name">About Us</span>
                                 </a>
                                 <span class="tooltip">About Us</span>
                               </li>
                               <li>
-                                <a href="#">
+                                <a href="user.php#contactus">
                                   <i class="bx bxs-phone-call"></i>
                                   <span class="links_name">Contact Us</span>
                                 </a>
