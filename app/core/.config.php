@@ -11,7 +11,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
     define('DBPASS', '');
     define('DBDRIVER', '');
 
-    define('ROOT', 'http://localhost/project_Amoral/public');
+    define('ROOT', 'http://localhost/Group_Project/public');
 } else {
 
     // database configaration
