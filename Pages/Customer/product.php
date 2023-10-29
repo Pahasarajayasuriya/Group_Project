@@ -116,11 +116,17 @@
         </div>
         <div class="">
           <button class="btn clear-cart">Clear</button>
-          <button class="btn cart-item-confirm">Checkout</button>
+          <button class="btn cart-item-confirm" id="checkout-button">Checkout</button>
         </div>
       </div>
     </div>
   </section>
+
+  <script>
+  document.getElementById("checkout-button").addEventListener("click", function() {
+    window.location.href = "checkout.php";
+  });
+</script>
 
   <script type="module" src="product.js"></script>
 </body>
