@@ -83,7 +83,10 @@ require_once '../../Components/NavBar/footer.php';
             </script>
         </section>
 
-
+        <div class="user-buttons">
+            <a href="login.php">Signup</a>
+            <a href="signup.php">Login</a>
+        </div>
 
         <section class="banner-container">
 
@@ -227,37 +230,37 @@ require_once '../../Components/NavBar/footer.php';
 
 
         <div id="aboutus">
-        <div class="heading">
-            <h1>About us</h1>
-        </div>
-
-        <section class="about">
-            <div class="img">
-                <img decoding="async" src="../../img/01_our-story.jpg" alt="">
+            <div class="heading">
+                <h1>About us</h1>
             </div>
 
-            <div class="content">
-                <span>welcome to our products</span>
-                <h3>OUR STORY</h3>
-                <p>In the late 1980s, an entrepreneur's wife in the textile weaving
-                    industry started baking cakes in a small Baby Belling Oven and
-                    sold them in a boutique in Kottawa town. These cakes, known as
-                    "Nona Cakes" or "cakes baked by the lady," gained popularity
-                    for their quality. Recognizing the potential in the baking
-                    industry, her husband, Mahinda Ranasinghe, decided to expand
-                    the business in 1992. He invested in second-hand European
-                    equipment for production, forming the organization "Ran Ovens." </p>
-                <p>While the textile industry faced challenges due to liberalized
-                    imports, Ran Ovens continued to improve production and distribution
-                    with a strong focus on hygiene and quality. In 1999, a joint
-                    venture agreement was formed between Finagle-a-Bagel of Boston,
-                    USA, and Phoenix Ventures of Sri Lanka with Ran Ovens to establish
-                    a state-of-the-art bakery in Sri Lanka, named "Finagle Lanka."
-                    Ran Ovens took on the operational management responsibilities,
-                    marking the beginning of the Sri Lankan baking revolution.
-                    Today, Finagle Lanka is wholly owned by the Ranasinghe Family.</p>
-            </div>
-        </section>
+            <section class="about">
+                <div class="img">
+                    <img decoding="async" src="../../img/01_our-story.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <span>welcome to our products</span>
+                    <h3>OUR STORY</h3>
+                    <p>In the late 1980s, an entrepreneur's wife in the textile weaving
+                        industry started baking cakes in a small Baby Belling Oven and
+                        sold them in a boutique in Kottawa town. These cakes, known as
+                        "Nona Cakes" or "cakes baked by the lady," gained popularity
+                        for their quality. Recognizing the potential in the baking
+                        industry, her husband, Mahinda Ranasinghe, decided to expand
+                        the business in 1992. He invested in second-hand European
+                        equipment for production, forming the organization "Ran Ovens." </p>
+                    <p>While the textile industry faced challenges due to liberalized
+                        imports, Ran Ovens continued to improve production and distribution
+                        with a strong focus on hygiene and quality. In 1999, a joint
+                        venture agreement was formed between Finagle-a-Bagel of Boston,
+                        USA, and Phoenix Ventures of Sri Lanka with Ran Ovens to establish
+                        a state-of-the-art bakery in Sri Lanka, named "Finagle Lanka."
+                        Ran Ovens took on the operational management responsibilities,
+                        marking the beginning of the Sri Lankan baking revolution.
+                        Today, Finagle Lanka is wholly owned by the Ranasinghe Family.</p>
+                </div>
+            </section>
         </div>
 
         <div class="heading">
