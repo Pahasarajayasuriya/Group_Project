@@ -1,4 +1,4 @@
-                        <?php
+<?php
                         if ($role == "User") {
                             echo '<li>
                                 <a href="user.php">

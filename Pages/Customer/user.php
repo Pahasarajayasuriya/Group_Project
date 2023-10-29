@@ -92,7 +92,7 @@ require_once '../../Components/NavBar/footer.php';
                 <div class="content">
                     <span>limited sales</span>
                     <h3>upto 50% off</h3>
-                    <a href="#" class="btn">shop now</a>
+                    <a href="product.php" class="btn">shop now</a>
                 </div>
             </div>
 
@@ -101,7 +101,7 @@ require_once '../../Components/NavBar/footer.php';
                 <div class="content">
                     <span>limited sales</span>
                     <h3>upto 20% off</h3>
-                    <a href="#" class="btn">shop now</a>
+                    <a href="product.php" class="btn">shop now</a>
                 </div>
             </div>
 
@@ -110,7 +110,7 @@ require_once '../../Components/NavBar/footer.php';
                 <div class="content">
                     <span>limited sales</span>
                     <h3>upto 25% off</h3>
-                    <a href="#" class="btn">shop now</a>
+                    <a href="product.php" class="btn">shop now</a>
                 </div>
             </div>
 
@@ -125,21 +125,21 @@ require_once '../../Components/NavBar/footer.php';
 
         <section class="category">
 
-            <h1 class="title"> our <span>category</span> <a href="#">view all >></a> </h1>
+            <h1 class="title"> our <span>category</span> <a href="product.php">view all >></a> </h1>
 
             <div class="box-container">
 
-                <a href="#" class="box">
+                <a href="product.php" class="box">
                     <img decoding="async" src="../../img/burger-bun.jpg" alt="">
                     <h3>Bread & Buns</h3>
                 </a>
 
-                <a href="#" class="box">
+                <a href="product.php" class="box">
                     <img decoding="async" src="../../img/blog-5.jpg" alt="">
                     <h3>Cakes</h3>
                 </a>
 
-                <a href="#" class="box">
+                <a href="product.php" class="box">
                     <img decoding="async" src="../../img/chicken_bun.jpg" alt="">
                     <h3>Frozen Foods</h3>
                 </a>
@@ -153,15 +153,15 @@ require_once '../../Components/NavBar/footer.php';
 
         <section class="products" id="newlyadded">
 
-            <h1 class="title"> Newly <span>Added</span> <a href="#">view all >></a> </h1>
+            <h1 class="title"> Newly <span>Added</span> <a href="product.php">view all >></a> </h1>
 
             <div class="box-container">
 
                 <div class="box">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-eye"></a>
+                        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+                        <!-- <a href="#" class="fas fa-heart"></a> -->
+                        <a href="product.php" class="fas fa-eye"></a>
                     </div>
                     <div class="img">
                         <img decoding="async" src="../../img/pineapple-gateau-cake.jpg" alt="">
@@ -170,55 +170,55 @@ require_once '../../Components/NavBar/footer.php';
                         <h3>Pineapple Gateau</h3>
                         <div class="price">Rs.2450</div>
                         <div class="stars">
+                            <!-- <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> -->
                         </div>
                     </div>
                 </div>
 
                 <div class="box">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-eye"></a>
+                        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+                        <!-- <a href="#" class="fas fa-heart"></a> -->
+                        <a href="product.php" class="fas fa-eye"></a>
                     </div>
                     <div class="img">
                         <img decoding="async" src="../../img/kottu_roti.jpg" alt="">
                     </div>
                     <div class="content">
                         <h3>Kottu Roti</h3>
-                        <div class="price">Rs.750</div>
+                        <div class="price">Rs.800</div>
                         <div class="stars">
+                            <!-- <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> -->
                         </div>
                     </div>
                 </div>
 
                 <div class="box">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-eye"></a>
+                        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+                        <!-- <a href="#" class="fas fa-heart"></a> -->
+                        <a href="product.php" class="fas fa-eye"></a>
                     </div>
                     <div class="img">
                         <img decoding="async" src="../../img/multi_seed.jpg" alt="">
                     </div>
                     <div class="content">
                         <h3>Multiseed Low GI Bread</h3>
-                        <div class="price">Rs.350</div>
+                        <div class="price">Rs.400</div>
                         <div class="stars">
+                            <!-- <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> -->
                         </div>
                     </div>
                 </div>
