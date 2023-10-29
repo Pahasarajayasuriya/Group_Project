@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+}
+
+.searchdiv {
+    margin-left: 80%;
+    padding: 2%;
+    width: 20px;
+}
+
+.search {
+    padding: 10px;
+    margin-left: 85%;
+    font-size: 30;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.add {
+    width: 150px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+
+.profile {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 35%;
+    align-items: center;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+table {
+    width: 250px;
+}
+
+header {
+    font-size: 24px;
+}
+
+td {
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.button {
+    background-color: salmon;
+    color: black;
+    border-radius: 7px;
+    
+}
+
+.edit {
+    width: 100px;
+    height: 25px;
+}
+
+.delete {
+    width: 100px;
+    height: 25px;
+}
+
+.back {
+    background-color: red;
+    color: white;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 7px;
+    height: 30px;
+}
