@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.top-section {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.border-box {
+  /*
+   border: 2px solid black;
+  padding: 10% 40%;
+  /*
+  */
+  /* 
+  justify-content: space-between;
+  position: relative;
+  left: 0;
+  width: 200px;*/
+  justify-content: center;
+  background-color: white;
+  /* width: 100%; */
+  height: 100%;
+  padding: 100px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.one {
+  /* width: 100%; */
+  position: relative;
+  left: -10px;
+  align-items: start;
+  margin-left: 5px;
+  justify-content: start;
+  background-color: rgb(236, 238, 238);
+}
+
+.two {
+
+  background-color: rgb(236, 238, 238);
+  /* width: 100%; */
+  position: relative;
+  /* left: 500px; */
+  align-items: start;
+  margin-left: 5px;
+
+}
+
+.three {
+
+  background-color: rgb(236, 238, 238);
+  /* width: 100%; */
+  position: relative;
+  /* left: 200px; */
+  align-items: start;
+  margin-left: 15px;
+  height: 400px;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  margin: 50px;
+  padding: 10px;
+}
+
+ul li {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
+/*.order-id {
+    text-align: center;
+  }*/
+
+
+
+
+
+.availability-button {
+  background-color: red;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.availability-button.left {
+  margin-
+  right: auto;
+  /* Push the button to the right */
+}
+
+.availability-button:hover {
+  background-color: darkred;
+}
+
+
+
+
+/* 
+.border-box::before,
+.border-box::after {
+  content: "";
+  position: absolute;
+  height: 60%;
+  width: 0.75px;
+  background-color: black;
+}
+    
+.border-box::before {
+  left: 33.33%;
+}
+
+.border-box::after {
+  right: 33.33%;
+} */
+
+
+
+/*----------------------------------------
+    Button
+*/
+
+.loc-btn{
+
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(169, 166, 166);
+  background-color: rgb(238, 93, 93);
+}
+
+
+.pay-btn{
+
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(169, 166, 166);
+  background-color: rgb(18, 235, 43);
+}
+
+.del-btn{
+
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(169, 166, 166);
+  background-color: rgb(18, 235, 43);
+}
+
+/*----------------------------------------
+    Button
+*/
+
+
+/* Define media queries for different screen sizes */
+@media (max-width: 768px) {
+  .border-box {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+  }
+  .availability-button {
+    padding: 10px 10px; /* Adjust button padding for smaller screens */
+  }
+}
