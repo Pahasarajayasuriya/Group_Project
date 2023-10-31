@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+/* Center align the buttons within .maindiv using flexbox */
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This centers the buttons vertically within the viewport */
+}
+
+/* Define styles for the .button class */
+.button {
+    display: block;
+    width: 25%; /* Decrease the horizontal size */
+    height: 40px;
+    margin: 10px 0;
+    background-color: white; /* Background color */
+    color: #000; /* Font color (black) */
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.logout-button {
+    width: 100%; /* Set button width to 100% to fill the container */
+    height: 40px;
+    background-color: #ff0000; /* Red background color for "Log Out" */
+    color: #fff; /* Font color (white) for "Log Out" */
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button-container {
+    width: 150px; /* Set container width as a percentage of the screen width */
+    margin: 30px 0; /* Add vertical margin to separate "Log Out" from other buttons */
+    margin-left: -30%; /* Add left margin to the container to separate it from the other buttons */
+}
+
+/* Add a hover effect for the "Log Out" button */
+.logout-button:hover {
+    background-color: #dd0000; /* Slightly darker red background color on hover */
+}
+
+/* Add a hover effect */
+.button:hover {
+    background-color: rgb(208, 206, 206); /* Hover background color */
+}
